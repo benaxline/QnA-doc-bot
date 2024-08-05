@@ -2,4 +2,4 @@
 A question-and-answer system that generates responses based on the documentation provided. 
 
 ## Sturcture
-![alt text](https://github.com/benaxline/QnA-doc-bot/pic/)
+![alt text](https://github.com/benaxline/QnA-doc-bot/pics/general_system.png)
