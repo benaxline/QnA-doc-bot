@@ -26,4 +26,6 @@ Next, we need to create embeddings for these chunks of documentation. In this sy
 Then, we evaluate the most similar documents from the Pinecone database using the user's query. We take the top chunks of most similar embeddings and pull them from Pinecone. We input the user's query and the most similar embeddings into the large language model. In this system, I used OpenAI's **gpt-4**. This is also from [Langchain](https://python.langchain.com/v0.2/docs/integrations/llms/) as well. 
 
 
+## Limitations
 
+This system is not able to read / output images. In some cases, when the answer is explicitly in the documentation, the system does not output the answer. 
